@@ -1,0 +1,87 @@
+/* Add your custom styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 40rem;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .graph-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .graph {
+    display: flex;
+  }
+  
+  .bar {
+    height: 150px;
+    width: 20px;
+    margin-right: 5px;
+    background-color: blue;
+    display: inline-block;
+  }
+  
+  .min-value-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .min-value {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  /* Add more styles as needed */
+  

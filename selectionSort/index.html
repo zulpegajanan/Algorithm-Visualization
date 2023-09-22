@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selection Sort Visualization</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Selection Sort Visualization</h1>
+    <div class="input-container">
+      <label for="arraySize">Enter the size of the array:</label>
+      <input type="number" id="arraySize" min="1">
+    </div>
+
+    <div class="input-container">
+      <label for="arrayElements">Enter the array elements:</label>
+      <input type="text" id="arrayElements" placeholder="e.g., 1 4 7 3 9">
+    </div>
+
+    <button onclick="startSelectionSort()">Start Selection Sort</button>
+    <button onclick="window.location.reload(true)">Reset</button>
+
+    <div class="graph-container">
+      <canvas id="graphCanvas"></canvas>
+      <div class="min-value-container" id="minValueContainer">
+        <span>Minimum Value:</span>
+        <span class="min-value" id="minValue"></span>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
